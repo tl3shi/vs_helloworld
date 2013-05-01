@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -29,10 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="opengltest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="simianti.cpp">
+    <ClCompile Include="testsort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

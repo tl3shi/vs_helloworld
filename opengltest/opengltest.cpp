@@ -65,7 +65,7 @@ void getCircle()
 void getRect(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glRectf(-0.5f, -0.5f, 0.5f, 0.5f);
+	glRectf(-0.1f, -0.5f, 0.5f, 0.5f);
 	cout << "hello world" <<endl;
 	glFlush();
 }
@@ -81,12 +81,12 @@ void reshape(int w, int h)
 	glLoadIdentity();
 	gluOrtho2D(0.0, (GLdouble)w, 0.0, (GLdouble)h);
 }
-int main(int argc, char *argv[])
+int main1(int argc, char *argv[])
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
 	glutInitWindowPosition(100, 100);
-	glutInitWindowSize(400, 400);
+	glutInitWindowSize(200, 400);
 	glutCreateWindow("OpenGL Demo");
 	init();
 	glutDisplayFunc(&getRect);
