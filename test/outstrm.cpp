@@ -1,5 +1,3 @@
-#include "stdafx.h"
-
 #include <stdlib.h>    // Need rand(), srand()
 #include <time.h>      // Need time()
 #include <algorithm>   // Need sort(), copy()
