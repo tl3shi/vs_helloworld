@@ -1,6 +1,11 @@
 Debug/*
 */Debug/*
 
+pch/*
+pch/
+
+*.sdf
+*.out
 # Compiled Object files
 *.slo
 *.lo
